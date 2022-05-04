@@ -1,13 +1,13 @@
 import React from 'react'
 import './ListItem.css'
 
-export const ListItem = () => {
+export const ListItem = (props) => {
   return (
     <div className='list-item'>
-        <p>Song</p>
-        <p>Artist</p>
-        <p>Genre</p>
-        <p>Rating</p>
+        <p>{props.Song}</p>
+        <p>{props.Artist}</p>
+        <p>{props.Genre}</p>
+        <p>{props.Rating}</p>
     </div>
   )
 }
