@@ -1,0 +1,8 @@
+.list-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: aqua;
+  p {
+    justify-self: center;
+  }
+}

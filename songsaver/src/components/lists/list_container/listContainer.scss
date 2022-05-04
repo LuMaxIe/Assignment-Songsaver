@@ -1,0 +1,13 @@
+.list-container {
+  background-color: blue;
+  margin: 10px;
+  display: grid;
+  .list-container-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    p {
+      align-self: center;
+      justify-self: center;
+    }
+  }
+}

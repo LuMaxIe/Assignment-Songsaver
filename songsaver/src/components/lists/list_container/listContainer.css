@@ -1,0 +1,22 @@
+.list-container {
+  background-color: blue;
+  margin: 10px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.list-container .list-container-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.list-container .list-container-header p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+/*# sourceMappingURL=listContainer.css.map */
