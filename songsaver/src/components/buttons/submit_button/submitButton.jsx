@@ -1,6 +1,9 @@
-export const SubmitButton = () => {
+export const SubmitButton = ({buttonClicked}) => {
+  const handleClick = () => {
+    buttonClicked()
+  }
   return (
-    <button>
+    <button onClick={handleClick}>
       Submit
     </button>
   )

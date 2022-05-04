@@ -8,8 +8,8 @@
 .list-container .list-container-header {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (2fr)[4] 1fr;
+      grid-template-columns: repeat(4, 2fr) 1fr;
 }
 
 .list-container .list-container-header p {
