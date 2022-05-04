@@ -6,7 +6,7 @@ const songTracker = (state = [], action) => {
       return stateCopy
     case 'REMOVE_SONG':
       state = state.slice();
-      state.splice(state.findIndex(x => x.title === action.payload.songTitle), 1)
+      state.splice(state.findIndex(x => x.songTitle === action.payload), 1)
       return state
     default:
       return state

@@ -4,3 +4,10 @@ export const addSong = (songObj) => {
     payload: songObj
   }
 }
+
+export const removeSong = (indentifier) => {
+  return {
+    type: 'REMOVE_SONG',
+    payload: indentifier,
+  }
+}
