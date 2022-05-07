@@ -3,6 +3,7 @@ import { ListItem } from '../list_item/ListItem'
 import { useDispatch } from 'react-redux'
 import { removeSong } from '../../../redux/actions';
 import './listContainer.css'
+import { SortSelect } from '../../inputs/sort_options/SortSelect';
 
 export const ListContainer = () => {
 
@@ -21,6 +22,7 @@ export const ListContainer = () => {
         <p>Artist</p>
         <p>Genre</p>
         <p>Rating</p>
+        <SortSelect />
       </div>
       {savedSongs.map((song) => {
         return <ListItem
