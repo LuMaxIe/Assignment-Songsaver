@@ -22,13 +22,3 @@ export const sortSongList = (columnHeader, direction, headerMap, listToSort) => 
   })
   return newArr
 }
-
-/*if(columnHeader === headerMap[0]['UI_Key']) {
-    columnHeader = headerMap[0]['Redux_Key']
-  }
-  if(columnHeader === 'Artist') {
-    columnHeader = 'songArtist'
-  }
-  if(columnHeader === 'Rating') {
-    columnHeader = 'songRating'
-  } */
