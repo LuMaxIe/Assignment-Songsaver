@@ -18,6 +18,9 @@ export const SortSelect = (props) => {
 
   return (
     <div className='sort-container'>
+      <div>
+        <p>Sorting</p>
+      </div>
       <select 
       name="sortItem" 
       id='sortOptions'

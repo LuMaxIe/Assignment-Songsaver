@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;CACd",
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,gBAAgB,EAAE,OAAO;EACzB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,eAAe;CAKvC;;AARD,AAIE,eAJa,CAIb,GAAG,CAAC,CAAC,CAAC;EACJ,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;CACb",
     "sources": [
         "sortSelect.scss"
     ],

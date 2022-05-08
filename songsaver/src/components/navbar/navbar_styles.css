@@ -1,13 +1,11 @@
 .navbar {
   background-color: white;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
   height: 50px;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
 }
 
 .navbar img {
@@ -16,5 +14,15 @@
      object-fit: contain;
   overflow: hidden;
   margin: 0;
+  padding-left: 10px;
+}
+
+.navbar .about-link {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=navbar_styles.css.map */

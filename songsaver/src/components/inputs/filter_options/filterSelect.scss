@@ -1,0 +1,9 @@
+.filter-container {
+  background-color: #5465FF;
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
+  div p {
+    margin: 2px;
+    padding: 5px;
+  }
+}

@@ -1,4 +1,8 @@
 .options-container {
-  background-color: red;
+  background-color: blue;
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import './filterSelect.css'
 
 export const FilterSelect = (props) => {
 
@@ -17,6 +18,9 @@ export const FilterSelect = (props) => {
 
   return (
     <div className='filter-container'>
+      <div>
+        <p>Filters</p>
+      </div>
       <select 
         name="filter-select" 
         id="filter-select"

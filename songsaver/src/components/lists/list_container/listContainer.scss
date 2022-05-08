@@ -1,7 +1,10 @@
 .list-container {
-  background-color: blue;
+  background-color: #160f29;
   margin: 10px;
   display: grid;
+  .header-container {
+    border: 1px solid white;
+  }
   div p {
     text-align: center;
   }

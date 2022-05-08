@@ -1,8 +1,12 @@
 .list-container {
-  background-color: blue;
+  background-color: #160f29;
   margin: 10px;
   display: -ms-grid;
   display: grid;
+}
+
+.list-container .header-container {
+  border: 1px solid white;
 }
 
 .list-container div p {
