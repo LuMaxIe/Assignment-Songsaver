@@ -7,6 +7,7 @@ import { ListContainer } from './components/lists/list_container/listContainer';
 import { OptionsBar } from './components/optionsbar/OptionsBar';
 import { splitArrayOfObjectsByObjectKeyValue } from './helpers/songArraySplit';
 import { sortSongList } from './helpers/sortSongList'
+import { filterSongList } from './helpers/filterSongList';
 
 function App() {
 
@@ -41,11 +42,24 @@ function App() {
     setLocalStateSongs([...updateArr])
   }
 
+  // Filter Function to handle selected filter options
+  const handleFilterRequest = (filterOptions) => {
+    if(filterOptions.rating === 1 && filterOptions.genre === 'none') {
+      setLocalStateSongs(songArray);
+      return
+    }
+    setLocalStateSongs(filterSongList(songArray, filterOptions));
+  }
+
   return (
     <div className="App">
       <NavContainer />
       <InputContainer />
-      <OptionsBar handleSortList={handleSortList}/>
+      <OptionsBar
+        availableGenres={Object.keys(songsByGenre)} 
+        handleSortList={handleSortList}
+        handleFilterList={handleFilterRequest}
+      />
       {LocalStateSongs.map((genre) => {
         return <ListContainer 
         songsByGenre={genre} 
