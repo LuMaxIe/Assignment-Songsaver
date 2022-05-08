@@ -2,6 +2,9 @@
   background-color: blue;
   margin: 10px;
   display: grid;
+  div p {
+    text-align: center;
+  }
   .list-container-header {
     display: grid;
     grid-template-columns: repeat(4, 2fr) 1fr;
