@@ -3,7 +3,7 @@
   display: grid;
   -ms-grid-columns: (2fr)[4] 1fr;
       grid-template-columns: repeat(4, 2fr) 1fr;
-  background-color: aqua;
+  background-color: #788BFF;
 }
 
 .list-item p {

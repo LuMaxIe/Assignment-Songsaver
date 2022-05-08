@@ -1,13 +1,19 @@
 .navbar {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: 50px;
-  align-items: flex-start;
   img {
     height: 100%;
     object-fit: contain;
     overflow: hidden;
-    margin: 0
+    margin: 0;
+    padding-left: 10px;
+  }
+  .about-link {
+    align-self: center;
+    justify-self: end;
+    padding-right: 10px;
   }
 }

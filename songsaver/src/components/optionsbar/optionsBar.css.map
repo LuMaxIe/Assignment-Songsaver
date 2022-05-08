@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACjB,gBAAgB,EAAE,GAAG;EACrB,OAAO,EAAE,IAAI;CACd",
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACjB,gBAAgB,EAAE,IAAI;EACtB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;EAC9B,UAAU,EAAE,GAAG;EACf,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;CACnB",
     "sources": [
         "optionsBar.scss"
     ],

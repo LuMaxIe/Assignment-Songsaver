@@ -15,7 +15,7 @@ export const ListContainer = (props) => {
 
   return (
     <div className="list-container">
-      <div>
+      <div className='header-container'>
         <p>{props.genreName}</p>
       </div>
       <div className='list-container-header'>
