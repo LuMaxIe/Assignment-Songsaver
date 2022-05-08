@@ -5,6 +5,10 @@
   display: grid;
 }
 
+.list-container div p {
+  text-align: center;
+}
+
 .list-container .list-container-header {
   display: -ms-grid;
   display: grid;
